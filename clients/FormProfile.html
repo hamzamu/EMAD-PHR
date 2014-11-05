@@ -1,0 +1,208 @@
+<template name="FormProfile">
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-md-12">
+                <div class="col-md-4">{{> widgetProfileAdd}}</div>
+                <div class="col-md-8">{{> AddProfileForm}}</div>
+            </div>
+
+
+        </div>
+
+    </div>
+</template>
+
+
+
+<template name="widgetProfileAdd">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">LOG</h3>
+        </div>
+        <div class="panel-body">
+            <div class="list-group">
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">List group item heading</h4>
+                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">List group item heading</h4>
+                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</template>
+
+
+<template name="AddProfileForm">
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+
+            <h4>PROFILE</h4>
+
+        </div>
+
+        <div class="panel-body">
+            <form class="form-horizontal">
+                <fieldset>
+
+
+
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="Patient Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Birth Date</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="Date of birth">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Sex</label>
+
+                        <div class="col-lg-6">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">M
+
+                            </label>
+
+                            <div class="col-lg-6">
+                                <label>
+
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">F
+                                </label>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Job</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="Job History">
+                        </div>
+                        <div class="col-lg-2">
+                            <a herf="#" class="btn btn-success" id="ptn_name">Job History</a>
+
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Marital status</label>
+
+                        <div class="col-lg-4">
+                            <select class="form-control" id="select">
+                                <option>---------</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Divorced</option>
+                                <option>Widowed</option>
+                            </select>
+
+
+                        </div>
+                        <div class="col-lg-2">
+                            <label class="control-label">Kids No.</label>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="--">
+                        </div>
+                    </div>
+
+
+
+                    <hr>
+
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Smoking</label>
+
+                        <div class="col-lg-4">
+                            <select class="form-control" id="select">
+                                <option>---------</option>
+                                <option>None</option>
+                                <option>Light</option>
+                                <option>Heavy</option>
+                                <option>Other</option>
+                            </select>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="Nargila , Pipe .. ?">
+
+                        </div>
+                    </div>
+
+                    <hr>
+
+
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Allergy</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" id="ptn_name" placeholder="--">
+                            <span class="help-block">ex : Dust , Aspirin , ...</span>
+                        </div>
+                    </div>
+
+                    <hr>
+
+
+                    <div class="form-group">
+                        <label for="" class="col-lg-3 control-label">Blood Type</label>
+
+                        <div class="col-lg-4">
+                            <select class="form-control" id="select">
+                                <option>---------</option>
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+
+                </fieldset>
+            </form>
+
+        </div>
+
+
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="button" class="btn btn-success pull-right" value="Submit" />
+                    <input type="button" class="btn btn-default pull-left" value="Cancel" />
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+</template>

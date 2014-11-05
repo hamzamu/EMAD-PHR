@@ -1,0 +1,30 @@
+ul.dashboard{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+ul.dashboard li{
+    display: table;
+    float: left;
+    width: 180px;
+    height: 90px;
+    margin: 5px;
+    background: #f5f5f5;
+    
+}
+ul.dashboard li a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+ul.dashboard li a:hover{
+
+}
+ul.dashboard li .icon{
+    font-size: 50px;
+    color: #999;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+}
